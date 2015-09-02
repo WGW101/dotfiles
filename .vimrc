@@ -20,9 +20,10 @@ set writebackup
 
 " Enable folding based on indentation
 set foldenable
-set foldmethod=indent
+set foldmethod=manual
 set foldnestmax=4
 set foldlevelstart=4
+nmap z% va}zf
 
 " Keep 50 lines of command line history
 set history=50

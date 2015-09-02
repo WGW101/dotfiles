@@ -124,8 +124,6 @@ source /opt/ros/indigo/setup.bash
 source ~/catkin_ws/devel/setup.bash
 
 # Caffe Setup
-# export LD_LIBRARY_PATH=~/caffe/build/lib:$LD_LIBRARY_PATH
-# export PYTHONPATH=~/caffe/python:$PYTHONPATH
-export LD_LIBRARY_PATH=~/jmerkow-caffe/build/lib:$LD_LIBRARY_PATH
-export PYTHONPATH=~/jmerkow-caffe/python:$PYTHONPATH
+export LD_LIBRARY_PATH=~/caffe/build/lib:$LD_LIBRARY_PATH
+export PYTHONPATH=~/caffe/python:$PYTHONPATH
 
