@@ -23,7 +23,7 @@ set foldenable
 set foldmethod=manual
 set foldnestmax=4
 set foldlevelstart=4
-nmap z% va}zf
+nmap z% ][va}zf
 
 " Keep 50 lines of command line history
 set history=50
