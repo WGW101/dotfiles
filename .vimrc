@@ -10,6 +10,13 @@ set nocompatible
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
+" change mapleader to , instead of \
+let mapleader=","
+
+" Show invisible characters
+set listchars=eol:¬,tab:▸\ ,trail:~
+nmap <Leader>l :set list!<CR>
+
 " Set backup and swap files to be saved to specific directories
 " Also take care of writing a backup before overwritting a file
 set backup
