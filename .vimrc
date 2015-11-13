@@ -20,7 +20,7 @@ nmap <silent> <Leader>l :set list!<CR>
 " Ctags shortcut
 nmap <silent> <Leader>t :!ctags -R .<CR>
 " Remove trailing whitespace shortcut
-nmap <silent> <Leader>x :%s/\s\+$<CR>
+nmap <silent> <Leader>x :%s/\s\+$//e<CR>
 
 " Set backup and swap files to be saved to specific directories
 " Also take care of writing a backup before overwritting a file
