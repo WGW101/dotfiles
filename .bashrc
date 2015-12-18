@@ -124,9 +124,3 @@ source /opt/ros/indigo/setup.bash
 source ~/catkin_ws/devel/setup.bash
 
 alias catkin_make='catkin_make -j 5 -C ~/catkin_ws'
-
-# Caffe Setup
-export LD_LIBRARY_PATH=~/caffe/build/lib:$LD_LIBRARY_PATH
-export PYTHONPATH=~/caffe/python:$PYTHONPATH
-export PATH=~/caffe/build/tools:$PATH
-
